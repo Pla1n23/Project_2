@@ -1,0 +1,87 @@
+* { 
+	margin:0;
+	padding:0;
+}
+/*Основной контейнер*/
+.container {
+	width:1500px;
+	margin:0 auto;
+}
+/*Кнопка*/
+button{
+	background-color: #01996D;
+	height: 51px;
+	width: 183px;
+	border-radius: 4px;
+	padding: 13px, 50px, 13px, 50px;
+	color: white;
+	font-size: 20px;
+}
+/*Заголовок*/
+header{
+	height: 85px;
+}
+.photo1, .heading1,.button1{
+	display: inline-block;
+}
+.heading_nav{
+	text-align: center;
+	position: absolute;
+	width: 557px;
+	height: 24px;	
+	left: 527px;
+	top: 31px;
+}
+.text1{
+	font-size: 20px;
+}
+.text{
+	padding-right: 72px;
+	font-size: 20px;
+}
+.photo_logo{
+	position: absolute;
+	height: 23px;
+	width: 80px;
+	left: 275px;
+	top: 31px;
+	border-radius: 0px;
+}
+.button1{
+	position: absolute;
+	height: 51px;
+	width: 277px;
+	left: 1367px;
+	top: 18px;
+	border-radius: 4px;
+}
+.b2{
+	font-size: 20px;
+	margin-right: 32px;
+}
+/*Основная часть*/
+main{	
+	height: 895px;
+}
+.main_photo{
+	position: absolute;
+	width: 1920px;
+	height: 895px;
+	left: 193px;
+}
+.main_text{
+	position: absolute;
+	width: 440px;
+	height: 384px;
+	left: 275px;
+	top: 261px;
+}
+.main_text h1{
+	color:#01996D;
+	font-size: 65px;
+	margin-bottom: 30px;
+}
+.main_text p {
+	font-size: 20px;
+	margin-bottom: 47px;
+}
